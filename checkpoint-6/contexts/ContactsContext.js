@@ -1,9 +1,12 @@
+"use client";
+
 import {
     createContext,
     useContext,
     useState,
     useEffect,
     useCallback,
+    use,
 } from "react";
 import contactsApi from "../services/contactsApi";
 
